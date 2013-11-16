@@ -1,0 +1,10 @@
+acme_store:
+    resource: "@AcmeStoreBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+crm_account:
+    resource: "@CrmAccountBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
